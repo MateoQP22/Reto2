@@ -1,0 +1,37 @@
+.card{
+    border: 0.125rem solid pink;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.card_title{
+    font-weight: 700;
+}
+
+.card_container{
+    border: 0.0625rem solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 400px; */
+}
+
+.card_container__hijo{
+    border: 0.0625rem solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    /* margin: auto; */
+    
+}
+
+.img_box{
+    width: 80px;
+    height: 80px;
+}

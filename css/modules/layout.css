@@ -4,7 +4,7 @@
 }
 
 .container{
-    max-width: var(--max-width-container);
+    width: 100%;
     padding-left: var(--padding-container);
     padding-right: var(--padding-container);
     margin: 0 auto;
@@ -21,7 +21,6 @@
 
 .g-elements{
     display: grid;
-    border: 1px solid red;
 }
 
 .g-elements--responsive{

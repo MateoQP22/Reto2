@@ -3,6 +3,8 @@
 @import './modules/layout.css';
 @import './modules/utils.css';
 @import './modules/button.css';
+@import './modules/text.css';
+@import './modules/animation.css';
 
 .body{
     background-color: blanchedalmond;

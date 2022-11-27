@@ -1,7 +1,13 @@
 @import './variables.css';
-@import './hero.css';
+@import './buttons.css';
 @import './layout.css';
+@import './utils.css';
+@import './cards.css';
+@import './hero.css';
 
 .body{
+    background-color: var(--primary-theme-color);
     margin: 0;
+    font-family: var(--primary-font-family);
+    color: var(--primary-text-color);
 }

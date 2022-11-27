@@ -2,7 +2,7 @@
     scroll-behavior: smooth;
     --primary-theme-color: rgb(34, 34, 53);
     --secondary-theme-color: #282c34;
-    --primary-text-color: #fff;
+    --primary-text-color: rgb(255, 255, 255);
     --secondary-text-color: #aeaeae;
     --reverse-primary-text-color: #000;
     --primary-shadow-color: #20232a80;

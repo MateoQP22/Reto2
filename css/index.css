@@ -1,15 +1,20 @@
 @import './variables.css';
+@import './module/layout.css';
 @import './module/header.css';
 @import './module/nav.css';
+@import './module/list.css';
+@import './module/utils.css';
 
+@import './module/animation.css';
 
 .body {
     
-    color: black var(--secondary-text-color);
-    margin: 0;
-    padding: 0;
-    font-family: var(--primary-font-family);
-
+color: black var(--secondary-text-color);
+margin: 0;
+padding: 0;
+font-family: "fredoka one", cursive;
+background-color: var(--bg);
+    
 }
 
 .container {
@@ -30,10 +35,12 @@ list-style: none;
 margin: 0;
 padding: 0;  
 border-radius: 50%;
-background: linear-gradient(green blue yellow);
+font-size: 2.5rem;
 }
 
 .menu__link {
+    position: relative;
+    transition: 0.25s;
     color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 500;
@@ -43,3 +50,15 @@ background: linear-gradient(green blue yellow);
 .menu__link:hover {
     color: var(--primary-highlight-color);
 }
+
+.list__link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.125rem;
+    width: 0;
+    height: 0.0625rem;
+    background-color: var(--secondary-highlight-color);
+    transition: width 0.25s;
+}
+

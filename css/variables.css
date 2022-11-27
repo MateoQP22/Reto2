@@ -5,7 +5,6 @@
     --primary-text-color: #fff;
     --secondary-text-color: #aeaeae;
     --reverse-primary-text-color: #000;
-    --primary-invalid-color: crimson;
     --primary-shadow-color: #20232a80;
     --secondary-shadow-color: #282c3480;
     --tertiary-shadow-color: #00000040;
@@ -21,5 +20,5 @@
     --primary-border-radius: 0.5rem;
     --max-width-container: 1024px;
     --padding-container-1: 0 2rem;
-    --fa-font-regular: normal 400 1em/1"Font Awesome 6 Free";
+    --all-transitions: all 0.25s;
     }

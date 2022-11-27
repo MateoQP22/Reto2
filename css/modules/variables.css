@@ -1,0 +1,11 @@
+:root{
+    --max-width-container: 512px;
+    --padding-section: 1.5rem;
+    --padding-container: 1rem;
+    --primary-border-radius: 0.5rem;
+
+    --primary-background-color:#8EC5FC;
+    --secondary-background-color:#E0C3FC;
+    --reverse-primary-shadow-color: #00000080;
+    --reverse-secondary-shadow-color: #00000040;
+}

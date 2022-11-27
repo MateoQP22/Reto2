@@ -1,0 +1,23 @@
+.banner{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, var(--primary-background-color) 0%, var(--secondary-background-color) 100%);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+
+.banner__header,
+  .banner__footer {
+    background-color: var(--reverse-primary-shadow-color);
+    padding: 0.5rem 1rem;
+  }
+  
+
+.banner__title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+  }
+

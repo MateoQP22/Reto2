@@ -1,11 +1,40 @@
 .banner{
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, var(--primary-background-color) 0%, var(--secondary-background-color) 100%);
+    background-image: url('./../../assetes/5072609.jpg');
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
     min-height: 100vh;
+    font-family: var(--primary-font-family);
 }
+
+.card{
+    box-shadow:
+      0 0 0.0125rem 0.0625rem var(--primary-shadow-color),
+      0 0 0.25rem 0.125rem var(--primary-shadow-color);
+    border-radius: var(--primary-border-radius);
+    max-width: 320px;
+    overflow: hidden;
+    transition: box-shadow 0.25s;
+  }
+
+
+.banner__primary-img {
+    display: flex;
+    background-color: var(--secondary-shadow-color);
+    border-radius: 50%;
+    width: 256px;
+    height: 256px;
+  }
+
+.banner__card {
+    box-shadow:
+      0 0 0.0125rem 0.0625rem var(--primary-shadow-color),
+      0 0 0.25rem 0.125rem var(--primary-shadow-color);
+    border-radius: var(--primary-border-radius);
+    max-width: 320px;
+    overflow: hidden;
+    transition: box-shadow 0.25s;
+  }
 
 
 .banner__header,
@@ -16,8 +45,36 @@
   
 
 .banner__title {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
     margin: 0;
   }
 
+  .banner__body {
+    background-color: var(--reverse-secondary-shadow-color);
+    padding: 1rem;
+  }
+
+  .banner__img{
+    position: relative;
+    max-width: 256px;
+  }
+
+  .banner__subtitle {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .banner__text {
+    font-size: 1rem;
+    text-align: justify;
+    margin: 0;
+  }
+
+
+  @media (min-width: 768px) {
+    .card {
+      max-width: 512px;
+    }
+  }

@@ -2,6 +2,7 @@
 @import './modules/banner.css';
 @import './modules/layout.css';
 @import './modules/utils.css';
+@import './modules/button.css';
 
 .body{
     background-color: blanchedalmond;

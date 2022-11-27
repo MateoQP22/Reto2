@@ -4,8 +4,16 @@
     --padding-container: 1rem;
     --primary-border-radius: 0.5rem;
 
+    --primary-shadow-color: #ffffff80;
+    --secondary-shadow-color: #ffffff40;
+    --primary-highlight-color: #61dafb;
+    --secondary-highlight-color: gold;
     --primary-background-color:#8EC5FC;
     --secondary-background-color:#E0C3FC;
-    --reverse-primary-shadow-color: #00000080;
-    --reverse-secondary-shadow-color: #00000040;
+    --reverse-primary-shadow-color: #ededed80;
+    --reverse-secondary-shadow-color: #d2d2d2;
+    --primary-shadow-color: #ffffff80;
+    --secondary-shadow-color: #ffffff40;
+    --primary-font-family:'Raleway', sans-serif;
+    
 }

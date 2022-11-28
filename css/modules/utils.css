@@ -1,0 +1,12 @@
+.gap-sm{
+    gap:calc(var(--padding-section) * 0.5);
+}
+
+.gap-md{
+    gap:calc(var(--padding-section));
+}
+
+
+.gap-lg {
+    gap: calc(var(--padding-section) * 1.5);
+  }

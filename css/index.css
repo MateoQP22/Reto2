@@ -3,7 +3,7 @@
 @import './layout.css';
 @import './utils.css';
 @import './cards.css';
-@import './hero.css';
+
 
 .body{
     background-color: var(--primary-theme-color);

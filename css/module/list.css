@@ -18,7 +18,7 @@ transition: transform 0.25s;
 .list__link {
     position: relative;
     color: var(--primary-text-color);
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
     transition: 0.25s; 
     padding: 5px;

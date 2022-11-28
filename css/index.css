@@ -1,0 +1,18 @@
+@import'./modulos/varibales.css';
+@import'./modulos/equipos.css';
+@import'./modulos/footer.css';
+@import'./modulos/animations.css';
+
+.body {
+    margin: 0;
+		background-color: var(--bg-color);
+}
+
+.main{
+    width: 100%;
+      font-family: var(--font-family);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
